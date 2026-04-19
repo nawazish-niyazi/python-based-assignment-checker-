@@ -8,7 +8,7 @@ try:
     from google import genai
     from google.genai import types
     HAS_GEMINI = True
-    client = genai.Client(api_key="AIzaSyCIZP6mXEuJ95et33tH4TBDKksMDIeTEtk")
+    client = genai.Client(api_key="enter your api key")
 except ImportError:
     HAS_GEMINI = False
 
